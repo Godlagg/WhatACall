@@ -1,0 +1,271 @@
+html,body {
+    margin: 0;
+    height: 105%;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background:rgb(0, 0, 0);
+    display: block;
+}
+.img1 img{
+    height: 265px;
+    width: 374px;
+    position: relative;
+    float: left;
+    bottom: ppx;
+    left: 0px;
+}
+    .img2 img{
+    height: 165px;
+    width: 174px;
+    position: relative;
+    float: left;
+    bottom: 230px;
+    left: 100px;
+}
+.text1 {
+    color:rgb(19, 156, 235);
+    font-size: 35px;
+    position: relative;
+    bottom: 265px;
+    left: -150px;
+}
+.text2 {
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    position: relative;
+    bottom: 33px;
+    left: -80px;
+}
+.palka1 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -45px;
+    left: -20px;
+}
+.palka2 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -120px;
+    left: -20px;
+}
+.palka3 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -170px;
+    left: -20px;
+}
+.palka4 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -220px;
+    left: -20px;
+}
+.palka5 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -270px;
+    left: -20px;
+}
+.palka6 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -320px;
+    left: -20px;
+}
+.palka7 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -370px;
+    left: -20px;
+}
+.palka8 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -70px;
+    left: -20px;
+}
+.palka9 img {
+    height: 340px;
+    width: 3px;
+    position: relative;
+    float: left;
+    bottom: -25px;
+    left: 185px;
+}
+.text3 {
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+    position: relative;
+    bottom: -163px;
+    left: -155px;
+}
+.text4 {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    bottom: -137px;
+    left: 20px;
+}
+    .text5 {
+        color:rgb(255, 255, 255);
+        font-size: 22px;
+        position: relative;
+        bottom: -150px;
+        left: -145px;
+}
+.text6 {
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    position: relative;
+    bottom: -110px;
+    left: 50px;
+}
+.text7 {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    bottom: -135px;
+    left: 25px;
+}
+.text8 {
+    color:rgb(255, 255, 255);
+    font-size: 24px;
+    position: relative;
+    bottom: -163px;
+    left: 55px;
+}
+.text9 {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    bottom: -190px;
+    left: 35px;
+}
+.text10 {
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    position: relative;
+    bottom: -210px;
+    left: 35px;
+}
+.text11 {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    bottom: 70px;
+    left: 220px;
+}
+.text12 {
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    bottom: 55px;
+    left: 225px;
+}
+.text13 {
+    color:rgb(255, 255, 255);
+    font-size: 19px;
+    position: relative;
+    bottom: 23px;
+    left: 225px;
+}
+.text14 {
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    position: relative;
+    bottom: -5px;
+    left: 235px;
+}
+.tg1 img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    float: left;
+    bottom: 170px;
+    left:  0px;
+}
+.tg2 img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    float: left;
+    bottom: 130px;
+    left:  -10px;
+}
+.tg3 img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    float: left;
+    bottom: -80px;
+    left:  -48px;
+}
+.tg4 img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    float: left;
+    bottom: 169px;
+    left:  115px;
+}
+.tg5 img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    float: left;
+    bottom: 133px;
+    left:  90px;
+}
+.tg6 img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    float: left;
+    bottom: 80px;
+    left:  60px;
+}
+.tg7 img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    float: left;
+    bottom: 25px;
+    left:  30px;
+}
+.yt img{
+    height: 30px;
+    width: 60px;
+    position: relative;
+    float: left;
+    bottom: -30px;
+    left:  -200px;
+}
+.x img{
+    height: 40px;
+    width: 20px;
+    position: relative;
+    float: left;
+    bottom: 30px;
+    left:  -230px;
+}
+
+
+

@@ -1,0 +1,270 @@
+html,body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background:rgb(0, 0, 0);
+    display: block;
+}
+.main-text {
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 0px;
+    position: relative;
+    bottom:-25px;
+    text-align: center;
+    left: 30px;
+    font-size: 30px;
+    text-decoration: none;  
+}
+.txt {
+    background: rgb(59, 59, 59);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px 60px;
+    height: 65px;
+    width: 285px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 0px;
+    position: relative;
+    bottom:-70px;
+    left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.txt:active {
+    transform: translateY(-2px);
+    box-shadow:0 3px 0 grey ;
+}
+.text {
+    background: rgb(59, 59, 59);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px 60px;
+    height: 65px;
+    width: 285px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 0px;
+    position: relative;
+    bottom:-90px;
+    left: 85px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.text:active {
+    transform: translateY(-2px);
+    box-shadow:0 3px 0 grey ;
+}
+.main-textere {
+    background: rgb(59, 59, 59);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px 60px;
+    height: 65px;
+    width: 285px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 0px;
+    position: relative;
+    bottom:-110px;
+    left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.main-textere:active {
+    transform: translateY(-2px);
+    box-shadow:0 3px 0 grey ;
+}
+.main-txt {
+    background: rgb(59, 59, 59);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px 60px;
+    height: 65px;
+    width: 285px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 0px;
+    position: relative;
+    bottom:-130px;
+    left: 85px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.main-txt:active {
+    transform: translateY(-2px);
+    box-shadow:0 3px 0 grey ;
+}
+.main-txte {
+    background: rgb(59, 59, 59);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px 60px;
+    height: 65px;
+    width: 285px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 0px;
+    position: relative;
+    bottom:-150px;
+    left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.main-txte:active {
+    transform: translateY(-2px);
+    box-shadow:0 3px 0 grey ;
+}
+.main-texte {
+    background: rgb(59, 59, 59);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px 60px;
+    height: 65px;
+    width: 285px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 0px;
+    position: relative;
+    bottom:-170px;
+    left: 85px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.main-texte:active {
+    transform: translateY(-2px);
+    box-shadow:0 3px 0 grey ;
+}
+.texte {
+    background: rgb(59, 59, 59);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px 60px;
+    height: 65px;
+    width: 285px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 0px;
+    position: relative;
+    bottom:-190px;
+    left: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.texte:active {
+    transform: translateY(-2px);
+    box-shadow:0 3px 0 grey ;
+}
+.textre {
+    background: rgb(59, 59, 59);
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px 60px;
+    height: 65px;
+    width: 285px;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin: 0px;
+    position: relative;
+    bottom:-210px;
+    left: 85px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.textre:active {
+    transform: translateY(-2px);
+    box-shadow:0 3px 0 grey ;
+}
+.tg img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index:  100;
+    top:      0px;
+    float: left;
+    margin: 0px;
+    margin: 155px;
+    left: -130px;
+}
+.tg1 img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index:  100;
+    top:      0px;
+    float: left;
+    margin: 0px;
+    margin: 750px;
+    left: -640px;
+}
+.x img{
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        z-index:  100;
+        top:      0px;
+        float: left;
+        margin: 0px;
+        margin: 240px;
+        left: -135px;
+}
+.youtube img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index:  100;
+    top:      0px;
+    float: left;
+    margin: 0px;
+    margin: 320px;
+    left: -300px;
+}
+.inst img{
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    z-index:  100;
+    top:      0px;
+    float: left;
+    margin: 0px;
+    margin: 410px;
+    left: -310px; 
+}
+.inst1 img{
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    z-index:  100;
+    top:      0px;
+    float: left;
+    margin: 0px;
+    margin: 495px;
+    left: -475px; 
+}
+.github img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index:  100;
+    top:      0px;
+    float: left;
+    margin: 0px;
+    margin: 580px;
+    left: -475px; 
+}
+.m img {
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    z-index:  100;
+    top:      0px;
+    float: left;
+    margin: 0px;
+    margin: 665px;
+    left: -635px;   
+}
+

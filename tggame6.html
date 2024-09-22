@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <div class="tasklist"><img src="./source/image 44.png" alt=""></div>
+    <div class="block"></div>
+    <div class="block2"></div>
+    <div class="task-txt"><b>Task</b></div>
+    <div class="list"><b>list</b></div>
+    <div class="text1">You can earn coins by completing tasks!</div>
+    <div class="palka1"><img src="./source/Line 22.png" alt=""></div>
+    <div class="palka2"><img src="./source/Line 22.png" alt=""></div>
+    <div class="palka3"><img src="./source/Line 22.png" alt=""></div>
+    <div class="palka4"><img src="./source/Line 22.png" alt=""></div>
+    <div class="palka5"><img src="./source/Line 22.png" alt=""></div>
+    <div class="palka6"><img src="./source/Line 22.png" alt=""></div>
+    <div class="palka7"><img src="./source/Line 28.png" alt=""></div>
+    <div class="palka8"><img src="./source/Line 28.png" alt=""></div>
+    <div class="text2"><a id="class1" onclick="ONCLICK()">Join</a> our club!</div>
+    <div class="text3">Subscribe to our<br><a id="class2" href=#>partners</a>!</div>
+    <div class="text4"><a id="class3" href=#>Play</a> cool crypto games<br>and earn more money!</div>
+    <div class="text5"><a id="class4" href=#>Subscribe</a> to the channel<br>of our main sponsor</div>
+    <div class="text7"><a id="class5" href=#>Order our product</a><br>and get tons of rewards!</div>
+    <div class="money1">+10000</div>
+    <div class="money2">+10000</div>
+    <div class="money3">+15000</div>
+    <div class="money4">+25000</div>
+    <div class="money5">+50000</div>
+    <div class="bird1"><img src="./source/image 71.png" alt=""></div>
+    <div class="bird2"><img src="./source/image 71.png" alt=""></div>
+    <div class="bird3"><img src="./source/image 71.png" alt=""></div>
+    <div class="bird4"><img src="./source/image 71.png" alt=""></div>
+    <div class="bird5"><img src="./source/image 71.png" alt=""></div>
+    <script src="./app.js"></script>
+    <style>
+        html,body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background:rgb(0, 0, 0);
+    display: block;
+}
+.tasklist img{
+    height: 250px;
+    width: 400px;
+    position: relative;
+    float: left;
+    bottom: 0px;
+    left: -10px;
+}
+.block {
+    background-color: rgb(67,140,181);
+    height: 50px;
+    width: 50px;
+    color: rgb(67,140,181);
+}
+.block2 {
+    background-color: rgb(67,140,181);
+    height: 60px;
+    width: 50px;
+    color: rgb(67,140,181);
+    position: relative;
+    float: left;
+    bottom: 260px;
+    left: 330px;
+}
+.task-txt {
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 1px;
+    float: left;
+    margin: 210px;
+    left: -70px;
+    font-size: 25px;
+}
+.list {
+    color: white;
+    position: absolute;
+    top: 0;
+    z-index: 1px;
+    float: left;
+    margin: 210px;
+    left: -10px;
+    font-size: 25px;
+}
+.text1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: 0px;
+    left: -15px;
+}
+.palka7 img {
+    height: 415px;
+    width: 3px;
+    position: relative;
+    float: left;
+    bottom: -35px;
+    left: 310px;
+}
+.palka8 img {
+    height: 415px;
+    width: 3px;
+    position: relative;
+    float: left;
+    bottom: -35px;
+    left: 200px;
+}
+.palka1 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -50px;
+    left: -20px;
+}
+.palka2 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -130px;
+    left: -20px;
+}
+.palka3 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -210px;
+    left: -20px;
+}
+.palka4 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -290px;
+    left: -20px;
+}
+.palka5 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -370px;
+    left: -20px;
+}
+.palka6 img {
+    height: 3px;
+    width: 500px;
+    position: relative;
+    float: left;
+    bottom: -450px;
+    left: -20px;
+}
+.text2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: -50px;
+    left: 0px;
+}
+#class1 {
+    color: rgb(75, 177, 202);
+}
+.text3 {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: -390px;
+    left: -160px;
+}
+#class2 {
+    color: rgb(75, 177, 202);
+}
+.text4 {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: -105px;
+    left: 0px;
+}
+#class3 {
+    color: rgb(75, 177, 202);
+}
+.text5 {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: -140px;
+    left: -5px;
+}
+#class4 {
+    color: rgb(75, 177, 202);
+}
+.text7 {
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: -170px;
+    left: -5px;
+}
+#class5 {
+    color: rgb(75, 177, 202);
+}
+.money1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: 80px;
+    left: 5px;
+}
+.money2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 5px;
+}
+.money3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: -10px;
+    left: 200px;
+}
+.money4 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: -100px;
+    left: 110px;
+}
+.money5 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    position: relative;
+    bottom: -180px;
+    left: 20px;
+}
+.bird1 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    bottom: 160px;
+    left: 40px;
+}
+.bird2 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    bottom: 130px;
+    left: 315px;
+}
+.bird3 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    bottom: 50px;
+    left: 270px;
+}
+.bird4 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    bottom: -40px;
+    left: 220px;
+}
+.bird5 img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    bottom: -115px;
+    left: 165px;
+}
+
+    </style>
+</body>
+</html>

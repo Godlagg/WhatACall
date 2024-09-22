@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style13.css">
+</head>
+<body>
+    
+<form action="login.php" method="post">
+
+<input id="login1" type="text" placeholder='login' name='login'>
+<input id="pass1" type="text" placeholder='password' name='pass'>
+<button id="signin" type='submit'>log in</button>
+
+</form>
+<div class="block"></div>
+<div class="text1"><p style="white-space: nowrap;"><b>Login Form</b></p></div>
+<div class="text2"><p style="white-space: nowrap;"><b>Login</b></p></div></div>
+<div class="text3"><p style="white-space: nowrap;"><b>Password</b></p></div>
+<div class="img1"><img src="./source/eye.png" alt=""></div>
+<div class="img2"><img src="" alt=""></div>
+<div class="block2"></div>
+<div class="img3"><img src="./source/Untitled (22) 11.png" alt=""></div>
+<div class="text4"><a href="./tggame14.html"><p style="white-space: nowrap;"><b>Create an account</b></p></a></div>
+
+<script>function show_hide_password(target){
+	var input = document.getElementById('password-input');
+	if (input.getAttribute('type') == 'password') {
+		target.classList.add('view');
+		input.setAttribute('type', 'text');
+	} else {
+		target.classList.remove('view');
+		input.setAttribute('type', 'password');
+	}
+	return false;
+}
+</script>
+<div class="id"></div>
+
+</body>
+</html>
